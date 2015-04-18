@@ -59,6 +59,11 @@ class init{
         $error->index();
         return false;
     }
+    
+    
+    public function loadModel($val){
+        echo $val;
+    }
 
 
     
