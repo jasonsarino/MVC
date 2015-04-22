@@ -25,4 +25,9 @@ class Error extends Controller{
         
         $this->view->load('error/view',$this->data);
     }
+
+    public function test(){
+        $this->view->load('');
+    }
+
 }
